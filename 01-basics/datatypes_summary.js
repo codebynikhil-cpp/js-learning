@@ -32,7 +32,7 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 // Return type of variables in JavaScript
@@ -49,3 +49,25 @@ console.log(typeof anotherId);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+// +++++
+// Stack (Primitive), Heap (Non-Primitive)(by reference)
+
+let myYoutubname = "nikhlilkumar"
+
+let anothername = myYoutubname
+
+anothername = "nikCoding"
+
+console.log(myYoutubname)
+console.log(anothername)
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "nikhil@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
