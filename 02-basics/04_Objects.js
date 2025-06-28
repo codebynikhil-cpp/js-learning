@@ -58,22 +58,26 @@ users[1].email
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "Guruji"
 }
 
 // course.courseInstructor
 
-// const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course // {}-> destructuring
 
 // console.log(courseInstructor);
 // console.log(instructor);
 
+
+//JSON
 // {
-//     "name": "hitesh",
+//     "name": "Guruji",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
+
+ // it's mainly for API'S
 [
     {},
     {},
