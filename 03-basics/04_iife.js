@@ -25,18 +25,18 @@
                 // Execution Phase
 
 
-Running a JavaScript Code Step by Step
-1> Global Execution -> this
-2> Memory Phase -> 
-            val1->undefined 
-            val2 -> undefined 
-            addnum -> definition
-            result1 -> undefined
-            result2 -> undefined
-3> Execution Phase 
-            val1 = 10
-            val2 = 5
-            addNum = [new variable environment + Execution thread]
+// Running a JavaScript Code Step by Step
+// 1> Global Execution -> this
+// 2> Memory Phase -> 
+//             val1->undefined 
+//             val2 -> undefined 
+//             addnum -> definition
+//             result1 -> undefined
+//             result2 -> undefined
+// 3> Execution Phase 
+//             val1 = 10
+//             val2 = 5
+//             addNum = [new variable environment + Execution thread]
 
             
 
